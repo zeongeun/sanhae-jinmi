@@ -2,7 +2,7 @@ import { Header } from "@/components/layout/header";
 import Card from "./_components/Card";
 import { IoIosArrowDown } from "react-icons/io";
 import { Previous, TabButton } from "@/components/layout/header/components";
-import Example from "@/components/common/bottomSheet/BottomSheet";
+import BottomSheet from "@/components/common/bottomSheet/BottomSheet";
 
 const array = [1, 2, 3, 4, 5];
 const contentType = [
@@ -81,6 +81,7 @@ export default function Location() {
           ))}
         </div>
       </div>
+      <BottomSheet />
     </>
   );
 }
