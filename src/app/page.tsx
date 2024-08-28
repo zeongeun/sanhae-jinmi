@@ -1,5 +1,5 @@
-import { Header } from "@/components/layout/header";
-import LogoImg from "@/components/layout/header/components/LogoImg";
+import { Header } from "@/components/header";
+import LogoImg from "@/components/header/components/LogoImg";
 
 export default function Home() {
   return (

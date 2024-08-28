@@ -1,8 +1,8 @@
-import { Header } from "@/components/layout/header";
-import Card from "./_components/Card";
+import { Header } from "@/components/header";
+import ContentPreviewCard from "../../components/contentPreviewCard/ContentPreviewCard";
 import { IoIosArrowDown } from "react-icons/io";
-import { Previous, TabButton } from "@/components/layout/header/components";
-import BottomSheet from "@/components/common/bottomSheet/BottomSheet";
+import { Previous, TabButton } from "@/components/header/components";
+import BottomSheet from "@/components/bottomSheet/BottomSheet";
 
 const array = [1, 2, 3, 4, 5];
 const contentType = [
@@ -77,7 +77,7 @@ export default function Location() {
         </div>
         <div className="py-4 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {array.map((e) => (
-            <Card key={e} />
+            <ContentPreviewCard key={e} />
           ))}
         </div>
       </div>

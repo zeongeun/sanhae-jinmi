@@ -1,7 +1,7 @@
 import Image from "next/image";
 import CardImg from "@/assets/images/image1.jpg";
 
-export default function Card() {
+export default function ContentPreviewCard() {
   return (
     <div className="flex gap-4 items-center">
       <div className="relative w-[100px] h-[130px] rounded overflow-hidden">
@@ -14,7 +14,7 @@ export default function Card() {
         />
       </div>
       <div className="flex flex-col justify-start items-start gap-3 text-sm">
-        <span className="border border-[#DFE3E6] bg-[#F1F3F5] px-[6px] py-[3px]  rounded">
+        <span className="border border-[#DFE3E6] bg-[#F1F3F5] px-[6px] py-[3px] rounded">
           음식점
         </span>
         <div>
